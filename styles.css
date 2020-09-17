@@ -1,0 +1,169 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+ background: #f8f8ff;
+ font-family: arial, sans-serif;
+}
+
+.links ul {
+ display: flex;
+ justify-content: flex-end;
+ margin: 10px;
+ padding: 20px;
+ }
+
+ a {
+   text-decoration: none;
+   list-style: none;
+   color: #000000;
+   margin: 10px;
+ }
+
+ a:hover {
+   text-decoration: underline;
+ }
+
+ #link1 {
+   margin: 10px;
+ }
+
+ #link2 {
+   margin: 10px;
+ }
+ .content {
+   text-align: center;
+ }
+ .content > h1 {
+   font-size: 5rem;
+   margin-top: 50px;
+   color: #b22222;
+ }
+  .content > h3 {
+    margin-left: 200px;
+    margin-top: -15px;
+    color: #556b2f;
+  }
+
+ 
+.content .g-search input:not([type="submit"]) {
+ 
+  width: 350px;
+  border: 1px solid grey;
+  border-radius: 1.5em;
+  background-color: #fff; 
+  font-family: arial, sans-serif;
+  font-size: 1rem;
+  margin-top: 30px;
+  padding: 6px;
+  outline: none;
+}
+
+.content .g-search input:not([type="text"]) {
+ width: 150px;
+ height: 30px;
+ border: 1px solid grey ;
+ background: lightgrey;
+ color: #000000;
+ font-size: 1rem;
+ outline: none;
+}
+
+.content .img-btn input:not([type="submit"]) {
+ 
+ width: 350px;
+ border: 1px solid grey;
+ border-radius: 1.5em;
+ background-color: #fff; 
+ font-family: arial, sans-serif;
+ font-size: 1rem;
+ margin-top: 30px;
+ padding: 6px;
+ outline: none;
+}
+
+.content .g-search input:not([type="text"]) {
+width: 150px;
+height: 30px;
+border: 1px solid grey ;
+background: lightgrey;
+color: #000000;
+font-size: 1rem;
+outline: none;
+}
+
+
+.content .img-btn input:not([type="text"]) {
+ width: 150px;
+ height: 30px;
+ border: 1px solid grey;
+ background: lightgrey;
+ color: #000000;
+ font-size: 1rem;
+ outline: none;
+}
+
+
+.content .lucky-btn input {
+ width: 150px;
+ height: 30px;
+ margin-top: 20px;
+ border: 1px solid grey;
+ background: lightgray;
+ color: #000000;
+ font-size: 1rem;
+ outline: none;
+}
+
+.advanced {
+ margin: 10px;
+ padding: 10px;
+ font-family: inherit;
+}
+
+.advanced > h1 {
+ color: red;
+ font-family: inherit;
+ font-size: 1.5rem;;
+ margin-bottom: 10px;
+}
+.advanced > p {
+  font-size: 1.1rem;
+  padding-top: 15px;
+}
+.advanced .form-control {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.advanced label {
+ display: inline-block;
+}
+.advanced input:not([type="submit"]) {
+  
+  padding: 5px;
+  margin: 10px;
+  width: 300px;
+  border: 1.5px solid grey;
+  border-radius: 0.2rem;
+  outline: none;
+  font-family: inherit;
+  font-size: 1rem;
+  display: inline-table;
+}
+
+ .advanced .adv-btn input {
+ width: 150px;
+ height: 35px;
+ border: 1px solid #2762eb;
+ background: #2762eb;
+ color: #fff;
+ font-size: 1rem;
+ outline: none;
+ margin-left: 350px;
+ margin-top: 30px;
+}
+
+
